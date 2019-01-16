@@ -1,28 +1,28 @@
-
-const cifrar = () =>{
+cifrar=()=>{
   // const aceptar =document.getElementById("botoncomenzar");
   // aceptar.addEventListener('click',window.cipher.encode);
 
     const espacio = parseInt(document.getElementById('offset').value);
-    console.log(espacio)
+    //console.log(espacio)
     const mayus = document.getElementById('entrada').value.toUpperCase();
-    console.log(mayus)
+    //console.log(mayus)
     //window.cipher.encode;
-    document.getElementById('inputRes').value = cipher.encode(espacio, mayus);
+    document.getElementById('inputRes').innerHTML = cipher.encode(espacio, mayus);
+    //document.getElementById('inputRes').innerHTML = cifrando;
 
 
 }
 
-const descrifrar = () =>{
+descrifrar=()=> {
   // const aceptar =document.getElementById("botoncomenzar");
   // aceptar.addEventListener('click',window.cipher.encode);
 
     const espacioUno = parseInt(document.getElementById('offset').value);
-    console.log(espacioUno)
+    //console.log(espacioUno)
     const mayusUno = document.getElementById('entrada').value.toUpperCase();
-    console.log(mayusUno)
+    //console.log(mayusUno)
     //window.cipher.encode;
-    document.getElementById('inputRes').value = cipher.decode(espacioUno, mayusUno);
+    document.getElementById('inputRes').innerHTMLc = cipher.decode(espacioUno, mayusUno);
 
 
 }

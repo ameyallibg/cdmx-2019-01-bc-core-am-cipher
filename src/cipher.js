@@ -28,8 +28,8 @@ window.cipher = {
 
       cifrando += final;
      }
-    document.getElementById('inputRes').innerHTML = cifrando;
-    console.log(cifrando)
+    //document.getElementById('inputRes').innerHTML = cifrando;
+    //console.log(cifrando)
     return cifrando
 
   },
@@ -46,8 +46,8 @@ window.cipher = {
 
         cifrandoUno += finalUno;
        }
-      document.getElementById('inputRes').innerHTML = cifrandoUno;
-      console.log(cifrandoUno)
+    //  document.getElementById('inputRes').innerHTML = cifrandoUno;
+      //console.log(cifrandoUno)
       return cifrandoUno
 
     },
