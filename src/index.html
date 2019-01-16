@@ -7,10 +7,29 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo ame!</h1>
-      <p>hola de nuevo</p>
+      <div id="titulo">
+        <p class="Ptitulo">Genera contraseñas fuertes y seguras</p>
+        <h1 id="titulo">Cifrador de  Contraseñas</h1>
+        <p class="Ptitulo">Genera cuantas contraseñas quieras usando una sola para todas tus cuentas</p>
+      </div>
+      <p class="parrafos">Escribe tu contraseña definitiva</p>
+      <input type="text" name="entrada" placeholder="Escribe tu contraseña" id="entrada" >
+      <p class="parrafos">Elige un numero para el cifrado que no deberas olvidar</p>
+      <input type="text" name="offset" placeholder="Escribe el offset" id="offset"><br><br>
+      <div style="width:700px; padding:3px; margin-left:350px;">
+      <div id=resultados><br><br>
+          <button  class="botones" id="botoncomenzar" type="button" onclick="cifrar()" >Cifrar</button><br><br>
+          <button  class="botones" id="botoncomenzarDos" type="button" onclick="descrifrar()">Descifrar</button>
+      </div>
+      <div id="resultados2">
+        <p id="parrafoRes">Resultado</p>
+        <p id="inputRes" name="resultado" ></p>
+      </div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+
+
+
   </body>
 </html>
