@@ -35,7 +35,7 @@ window.cipher = {
   },
 
 
-      decode:(espacioUno , mayusUno) =>{
+      decode:(espacioUno, mayusUno) =>{
        let cifrandoUno ="";
       //console.log(mayus)
       //let mayus = contraseña.toUpperCase();

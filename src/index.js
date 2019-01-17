@@ -1,6 +1,5 @@
-cifrar=()=>{
-  // const aceptar =document.getElementById("botoncomenzar");
-  // aceptar.addEventListener('click',window.cipher.encode);
+const cifrar = () => {
+
 
     const espacio = parseInt(document.getElementById('offset').value);
     //console.log(espacio)
@@ -13,7 +12,11 @@ cifrar=()=>{
 
 }
 
-descrifrar=()=> {
+const aceptar =document.getElementById("botoncomenzar");
+aceptar.addEventListener('click',cifrar);
+
+
+const descrifrar=()=> {
   // const aceptar =document.getElementById("botoncomenzar");
   // aceptar.addEventListener('click',window.cipher.encode);
 
@@ -22,10 +25,16 @@ descrifrar=()=> {
     const mayusUno = document.getElementById('entrada').value.toUpperCase();
     //console.log(mayusUno)
     //window.cipher.encode;
-    document.getElementById('inputRes').innerHTMLc = cipher.decode(espacioUno, mayusUno);
+    document.getElementById('inputRes').innerHTML = cipher.decode(espacioUno, mayusUno);
+
+
+
 
 
 }
+
+const des =document.getElementById("botoncomenzarDos");
+des.addEventListener('click',descrifrar);
 
 
 // let mayusDos = document.getElementById('entrada').value.toUpperCase();
