@@ -26,13 +26,23 @@ window.cipher = {
   if (mayus.match(contador)) {
     //console.log(mayus)
     for (let i = 0; i < mayus.length; i++) {
-//      console.log(i)
+      let cifrado= mayus.charCodeAt(i);
 
-      let cifrado=(mayus.charCodeAt(i) - 65 + espacio) % 26 + 65;
-      //console.log(cifrado)
-      let final = String.fromCharCode(cifrado);
+      if (cifrado >= 65 && cifrado <=90) {
+        let newCif=(mayus.charCodeAt(i) - 65 + espacio) % 26 + 65;
+        let final = String.fromCharCode(newCif);
 
-      cifrando += final;
+        cifrando += final;
+
+      }else if(cifrado >= 97 && cifrado <=122)  {
+
+        let newCif=(mayus.charCodeAt(i) - 97 + espacio) % 26 + 97;
+        let final = String.fromCharCode(newCif);
+
+        cifrando += final;
+
+
+      }
 
     }
     return cifrando
@@ -42,17 +52,26 @@ window.cipher = {
     for (let i = 0; i < mayus.length; i++) {
       let cifrado= mayus.charCodeAt(i);
       //console.log(cifrado)
-       if(cifrado >=32 && cifrado <= 64){
+       if(cifrado >=32 && cifrado <= 64 || cifrado >=91 && cifrado <=95 || cifrado >=123 && cifrado <=255){
          let final = String.fromCharCode(cifrado)
          cifrando += final;
 
-        }else {
+       }else if(cifrado >= 65 && cifrado <=90){
 
          let newCif = (cifrado - 65 + espacio) % 26 + 65;
         // console.log(newCif)
          let final = String.fromCharCode(newCif);
 
         cifrando += final;
+      }
+      else if(cifrado >= 97 && cifrado <=122)  {
+
+        let newCif=(mayus.charCodeAt(i) - 97 + espacio) % 26 + 97;
+        let final = String.fromCharCode(newCif);
+
+        cifrando += final;
+
+
       }
     } return cifrando
   }
@@ -69,19 +88,33 @@ window.cipher = {
 decode:(espacio , mayus) =>{
  let cifrando = "";
  let contador= /^[a-zA-Z]+$/;
- //let letras = "abcdefghijklmnopqrstuvwxyz"
-//console.log(mayus)
-//let mayus = contraseña.toUpperCase();
+
 if (mayus.match(contador)) {
   //console.log(mayus)
   for (let i = 0; i < mayus.length; i++) {
-//      console.log(i)
-
-    let cifrado=(mayus.charCodeAt(i) + 65 - espacio) % 26 + 65;
+    //console.log(mayus)
+    let cifrado= mayus.charCodeAt(i);
     //console.log(cifrado)
-    let final = String.fromCharCode(cifrado);
+    if (cifrado >= 65 && cifrado <=90) {
+        //console.log(cifrado)
+      let newCif=(mayus.charCodeAt(i) + 65 - espacio) % 26 + 65;
+      let final = String.fromCharCode(newCif);
 
-    cifrando += final;
+      cifrando += final;
+
+
+
+    }else if(cifrado >= 97 && cifrado <=122)  {
+
+
+      let newCif=(mayus.charCodeAt(i) - 97 - espacio + 52 ) % 26 + 97;
+      let final = String.fromCharCode(newCif);
+
+      cifrando += final;
+
+
+
+    }
 
   }
   return cifrando
@@ -91,17 +124,27 @@ if (mayus.match(contador)) {
   for (let i = 0; i < mayus.length; i++) {
     let cifrado= mayus.charCodeAt(i);
     //console.log(cifrado)
-     if(cifrado >=32 && cifrado <= 64){
+     if(cifrado >=32 && cifrado <= 64 || cifrado >=91 && cifrado <=95 || cifrado >=123 && cifrado <=255){
        let final = String.fromCharCode(cifrado)
        cifrando += final;
 
-      }else {
+     }else if (cifrado >= 65 && cifrado <=90){
 
        let newCif = (cifrado + 65 - espacio) % 26 + 65;
       // console.log(newCif)
        let final = String.fromCharCode(newCif);
 
       cifrando += final;
+    }else if(cifrado >= 97 && cifrado <=122)  {
+
+
+      let newCif=(mayus.charCodeAt(i) - 97 - espacio + 52 ) % 26 + 97;
+      let final = String.fromCharCode(newCif);
+
+      cifrando += final;
+
+
+
     }
   } return cifrando
 }
@@ -111,13 +154,6 @@ return mayus
 }
 
 };
-
-      //document.getElementById('inputRes').innerHTML = cifrando;
-      //console.log(cifrando)
-
-
-
-
 
     //   decode:(espacioUno, mayusUno) =>{
     //    let cifrandoUno ="";
