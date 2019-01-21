@@ -1,4 +1,4 @@
-
+ 
 window.cipher = {
   encode:(espacio , mayus) => {
    let cifrando = "";

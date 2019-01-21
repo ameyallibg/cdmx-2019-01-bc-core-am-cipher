@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="root">
-      <div>
-        <p class="Ptitulo">Genera contraseñas fuertes y seguras</p>
-        <h1 id="titulo">Cifrador de  Contraseñas</h1>
-        <p class="Ptitulo">Genera cuantas contraseñas quieras usando una sola para todas tus cuentas</p>
+      <div id="header">
+        <h1>CIFRADO SEGURO</h1>
+        <h3><i>GENERADOR DE CONTRASEÑAS SEGURAS</i></h3>
+        <p id="intr"><i>Sabemos que las contraseñas</i></p>
       </div>
-      <p class="parrafos">Escribe tu contraseña definitiva</p>
-      <p>No uses espacios ni signos numericos</p>
-      <input type="text" name="entrada" placeholder="Escribe tu contraseña" id="entrada" >
-      <p class="parrafos">Elige un numero para el cifrado que no deberas olvidar</p>
-      <input type="text" name="offset" placeholder="Escribe el offset" id="offset"><br><br>
-      <div style="width:700px; padding:3px; margin-left:350px;">
-      <div id="resultados"><br><br>
-          <button  class="botones" id="botoncomenzar" type="button"  >Cifrar</button><br><br>
-          <button  class="botones" id="botoncomenzarDos" type="button">Descifrar</button>
+      <div id="cont">
+
+
+      <div id="contr">
+        <p class="parrafos"><b>Contraseña</b></p>
+        <input type="text"  placeholder="Escribe tu contraseña" id="entrada" >
       </div>
-      <div id="resultados2">
-        <p id="parrafoRes">Resultado</p>
-        <p id="inputRes" name="resultado" ></p>
+      <div id="num">
+        <p class="parrafos"><b>Numero</b></p>
+        <input type="text"  placeholder="Escribe el offset" id="offset"><br><br>
       </div>
-    </div>
+      <textarea rows="8" cols="80" id="inputRes" name="resultado" ></textarea>
+      <p id="parrafoRes"><b>RESULTADO</b></p>
+      </div>
+      <div id="resultados">
+          <button  class="botones" id="botoncomenzar" type="button"><b>CIFRAR</b></button><br><br>
+      </div>
+      <div id="resultadosDos">
+        <button  class="botones" id="botoncomenzarDos" type="button"><b>DESCIFRAR</b></button>
+      </div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
