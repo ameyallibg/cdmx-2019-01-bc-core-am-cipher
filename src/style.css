@@ -1,7 +1,7 @@
 
 body{
   text-align: center;
-  font-family: monospace;
+  font-family: 'Barlow Condensed', sans-serif;
   height:100%;
   width: 100%;
   background-image: url(https://previews.123rf.com/images/phochi1981/phochi19811709/phochi1981170900011/85204283-patr%C3%B3n-abstracto-con-rayas-verticales-sobre-fondo-de-textura-en-colores-retro-el-patr%C3%B3n-sin-fin-se-puede-u.jpg);
@@ -17,17 +17,17 @@ body{
 }
 h1{
 
-  font-size: 100px;
+  font-size: 110px;
   padding-top: 10px;
   padding-bottom: 10px;
   color:  #0B4C5F;
   margin-top: 10px;
   margin-bottom: 1px;
+  margin-right:  150px;
 }
 
 h3{
   font-size: 23px;
-  font-family: sans-serif;
   margin-left: 40px;
   margin-right: 100px;
   padding-bottom: 30px;
@@ -48,7 +48,6 @@ h3{
 }
 #intr{
   font-size: 17px;
-  font-family: sans-serif;
   text-align: left;
   margin-left: 45px;
   color: #3c4a55;
@@ -63,7 +62,6 @@ h3{
 }
 .parrafos{
   font-size: 20px;
-  font-family: sans-serif;
   width: 50px;
   text-align: left;
   color: #5bb254;
@@ -144,7 +142,6 @@ button{
 }
 .botones:hover{
 background-color:#5bb254;
-font-family: monospace;
 font-size: 35px;
 }
 
