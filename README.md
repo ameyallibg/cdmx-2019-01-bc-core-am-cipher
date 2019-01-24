@@ -16,5 +16,7 @@ El cifrado César es uno de los primeros métodos de cifrado conocidos históric
 
 - Ahora con (_CIFRADO SEGURO_) podra gestionar todas sus cuentas, y no tendra preocupaciones al usar 
 
+**Investigacion:** Realizando pequeñas encuentas acerca de que personas tenian una misma contraseña para mas de tres cuentas, me di cuenta que mi sector del mercado son los adultos-jovenes de entre 18-30 años, los que generalmente comparten la misma contraseña con sus cuentas-  
+
 
 
