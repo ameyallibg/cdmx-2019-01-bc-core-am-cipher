@@ -8,28 +8,25 @@ body{
   background-image: url(https://rollosdepapel-online.com/3164-large_default/110-mts-x-62-cm-rollo-papel-de-seda-verde-color-pastel-estampado-rayas.jpg);
 }
 #root{
-  height: 1000px;
+  height: 1800px;
   width: 80%;
-  border-radius: 15px;
   background-color: white;
   margin-right: 30%;
-  /*margin-top: 60px;
-  margin-left: 270px;*/
 
 }
 
 h1{
 
-  font-size: 8vw;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-size: 7.5vw;
   color:  #0B4C5F;
-  margin-top: 10px;
-  margin-bottom: 1px;
-  margin-right:18%;
-
-
+  display: inline-block;
+  margin: 0px;
+  margin-left: 10px;
 }
+#key {
+    font-size: 5.5vw;
+}
+
 
 h3{
   font-size: 1.7vw;
@@ -138,6 +135,7 @@ h3{
     text-align: center;
     border-style:groove;
     margin-bottom: 0px;
+    border-bottom: 5px inset #5bb254;
   }
 
 #divResul h2{
@@ -173,12 +171,13 @@ h3{
 
 button{
   width: 60%;
-  height: 70px;
-  border-radius: 30px;
+  height: 60px;
+  border-radius: 20px;
   background-color:#0B4C5F;
-  font-size: 2.1vw;
+  font-size: 2vw;
   margin-top: 20px;
   color: white;
+  transition-duration: 0.4s;
 
 }
 .botones:hover{
@@ -186,39 +185,79 @@ background-color:#5bb254;
 font-size: 2vw;
 }
 
-/*#reset{
-  width: 200px;
-  height: 60px;
-  border-radius: 10px;
-  background-color:gray;
-  font-size: 15px;
-  color: white;
-  margin-left: 450px;
 
-}
-
-#reset:hover{
-  width: 250px;
-  height: 70px;
-  border-radius: 10px;
-  background-color:red;
-  font-size: 15px;
-  color: white;
-  margin-left: 450px;
-  font-weight: bolder;
-
-}*/
 #text{
-  background-color: #e5e7ff;
-  margin-top: 100px;
+  background-color: #d9dcff;
+  margin-top: 110px;
   width: 100%;
-  height: 100px;
+  height: 75px;
 }
 #text p{
   text-align: left;
-  margin-left: 12%;
+  margin-left: 9%;
   padding-top: 20px;
-  font-size: 1.4vw;
+  font-size: 1.5vw;
 
+
+}
+.explicacion{
+  font-size: 1.3vw;
+  width: 80%;
+  margin-left: 10%;
+  text-align: justify;
+}
+
+#redes{
+  width: 100%;
+  height: 150px;
+  background-color: #5bb254;
+  margin-top: 50px;
+  color: white;
+  font-size: 1.6vw;
+  padding-top: .5px;
+}
+#fb{
+  color: white;
+  width: 40px;
+  font-size: 2.5vw;
+  margin-top: 20px;
+}
+#tw{
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 2.5vw;
+  margin-top: 20px;
+
+}
+
+#yt{
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 2.5vw;
+  margin-top: 20px;
+}
+
+.blue{
+  color: blue;
+}
+h4{
+  color:#36395d;
+  font-size: 2.2vw;
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 10%;
+}
+
+#play{
+  width: 30%;
+  height: 60px;
+  border-radius: 12px;
+  background-color:black;
+  font-size: 2.1vw;
+  margin-top: 20px;
+  color: white;
+  transition-duration: 0.4s;
 
 }

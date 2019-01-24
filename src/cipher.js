@@ -7,11 +7,11 @@ window.cipher = {
         for (let i = 0; i < mayus.length; i++) {//itera mayus
           let cifrado= mayus.charCodeAt(i);//convierte cada iteracion a su codigo ascii
             if (cifrado >= 65 && cifrado <=90) {//codigo ascii de las mayusculas
-              let newCif=(mayus.charCodeAt(i) - 65 + espacio + 26) % 26 + 65; //aplicando formula
+              let newCif=(mayus.charCodeAt(i) - 65 + espacio + 52) % 26 + 65; //aplicando formula
               let final = String.fromCharCode(newCif);
               cifrando += final;
             }else if(cifrado >= 97 && cifrado <=122)  {//codigo ascii minusculas
-              let newCif=(mayus.charCodeAt(i) - 97 + espacio + 26) % 26 + 97; // aplicando formula
+              let newCif=(mayus.charCodeAt(i) - 97 + espacio + 52) % 26 + 97; // aplicando formula
               let final = String.fromCharCode(newCif);
               cifrando += final;
               }
@@ -26,11 +26,11 @@ window.cipher = {
               let final = String.fromCharCode(cifrado)
               cifrando += final;
             }else if(cifrado >= 65 && cifrado <=90){ // para mayusculas
-              let newCif = (cifrado - 65 + espacio + 26) % 26 + 65;
+              let newCif = (cifrado - 65 + espacio + 52) % 26 + 65;
               let final = String.fromCharCode(newCif);
               cifrando += final;
             }else if(cifrado >= 97 && cifrado <=122){ //para minusculas
-              let newCif=(mayus.charCodeAt(i) - 97 + espacio + 26) % 26 + 97;
+              let newCif=(mayus.charCodeAt(i) - 97 + espacio + 52) % 26 + 97;
               let final = String.fromCharCode(newCif);
               cifrando += final;
             }
