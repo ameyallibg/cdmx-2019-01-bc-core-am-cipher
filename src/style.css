@@ -27,6 +27,11 @@ h1{
     font-size: 5.5vw;
 }
 
+#follow{
+  display: inline-block;
+  font-size: 2.1vw;
+}
+
 
 h3{
   font-size: 1.7vw;
@@ -209,18 +214,19 @@ font-size: 2vw;
 
 #redes{
   width: 100%;
-  height: 150px;
+  height: 100px;
   background-color: #5bb254;
   margin-top: 50px;
   color: white;
   font-size: 1.6vw;
-  padding-top: .5px;
+  padding-top: 20px;
 }
 #fb{
   color: white;
   width: 40px;
   font-size: 2.5vw;
   margin-top: 20px;
+  margin-left: 2%;
 }
 #tw{
   color: white;
@@ -228,6 +234,7 @@ font-size: 2vw;
   height: 40px;
   font-size: 2.5vw;
   margin-top: 20px;
+  margin-left: 2%;
 
 }
 
@@ -237,6 +244,7 @@ font-size: 2vw;
   height: 40px;
   font-size: 2.5vw;
   margin-top: 20px;
+  margin-left: 2%;
 }
 
 .blue{

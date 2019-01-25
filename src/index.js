@@ -3,10 +3,10 @@ const cifrar = () => {
 
     const espacio = parseInt(document.getElementById('offset').value);
     //console.log(espacio)
-    const mayus = document.getElementById('entrada').value //toUpperCase()
+    const string = document.getElementById('entrada').value //toUpperCase()
     //console.log(mayus)
     //window.cipher.encode;
-    document.getElementById('inputRes').innerHTML = cipher.encode(espacio, mayus);
+    document.getElementById('inputRes').innerHTML = cipher.encode(espacio, string);
     //document.getElementById('inputRes').innerHTML = cifrando;
 
 
@@ -22,10 +22,10 @@ const descrifrar=()=> {
 
     const espacio = parseInt(document.getElementById('offset').value);
     //console.log(espacioUno)
-    const mayus = document.getElementById('entrada').value; //toUpperCase()
+    const string = document.getElementById('entrada').value; //toUpperCase()
     //console.log(mayusUno)
     //window.cipher.encode;
-    document.getElementById('inputRes').innerHTML = cipher.decode(espacio, mayus);
+    document.getElementById('inputRes').innerHTML = cipher.decode(espacio, string);
 
 
 

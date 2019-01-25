@@ -64,4 +64,15 @@ Al saber que la pagina tendria pocos objetos que manipular se decidio centrar to
 El concepto inicial de la pagina cambio junto con el proceso.
 No sin antes recordar
 
-![cifrado César](./src/esquema.jpg)
+![esquema](./src/esquema.jpg)
+
+ Se penso hacer todo con bordes redondeados para hacerlo mas amigable para el usuario.
+
+ tiene un diseño minimalista.
+
+ En base a las encuentas pareciera mas una app que una pagina web.
+
+
+ Se tomaron en cuenta esas consideraciones y el diseño final , ofrece en primera plano al abri la pagina
+
+![pagina1](./src/pagina1.jpg)
