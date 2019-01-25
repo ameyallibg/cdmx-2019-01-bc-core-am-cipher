@@ -1,6 +1,7 @@
 const cifrar = () => {
 
 
+    
     const espacio = parseInt(document.getElementById('offset').value);
     //console.log(espacio)
     const string = document.getElementById('entrada').value //toUpperCase()

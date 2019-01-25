@@ -2,32 +2,32 @@ window.cipher = {
   encode: (espacio,string) => {
         let cifrando = "";
         for (let i = 0; i < string.length; i++) {//divide el string epor su longitud
-          let str = string.charCodeAt(i);//convierte 
-          if ( str >= 65 && str <= 90) {
-            let formula = (str - 65 + espacio + 52 ) % 26 + 65;
+          let str = string.charCodeAt(i);//convierte cada iteraccion a su ascii
+          if ( str >= 65 && str <= 90) {//para mayusculas
+            let formula = (str - 65 + espacio + 104 ) % 26 + 65;
+            let final = String.fromCharCode(formula);//convierte el ascii resultante de nuevo a una letra
+            cifrando += final; // Concatena y asigna a final los resultados de cifrando
+         }else if (str >= 97 && str <= 122) {// para minusculas
+            let formula = (str - 97 + espacio + 104 ) % 26 + 97;
             let final = String.fromCharCode(formula);
             cifrando += final;
-         }else if (str >= 97 && str <= 122) {
-            let formula = (str - 97 + espacio + 52 ) % 26 + 97;
-            let final = String.fromCharCode(formula);
-            cifrando += final;
-         }else {
-              let final = String.fromCharCode(str);
+         }else {// para todas las demas que no esten en el rango de mayus y minusculas
+              let final = String.fromCharCode(str);//devulve la iteracion i a su caracter
               cifrando += final
               }
-        }return cifrando;
+        }return cifrando;//devulve el valor final del cifrando para el for
   },
 
-   decode:(espacio, string) =>{
+   decode:(espacio, string) => {
           let cifrando = "";
-          for (let i = 0; i < string.length; i++) {
+          for (let i = 0; i < string.length; i++){
             let str = string.charCodeAt(i);
             if ( str >= 65 && str <= 90) {
-              let formula = (str + 65 - espacio + 52) % 26 + 65;
+              let formula = (str + 65 - espacio + 104) % 26 + 65;
               let final = String.fromCharCode(formula);
               cifrando += final;
             }else if (str >= 97 && str <= 122) {
-              let formula = (str - 97 - espacio + 52 ) % 26 + 97;
+              let formula = (str - 97 - espacio + 104 ) % 26 + 97;
               let final = String.fromCharCode(formula);
               cifrando += final;
             }else {

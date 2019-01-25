@@ -41,8 +41,6 @@ Las pruebas automatizadas para este sistema requieren de una instalación simple
 ## Expresiones de gratitud
 Agradezco el apoyo de mi squad "Guacacoders".  
 # UX-UI
-Para conocer el proceso de diseño con el que se desarrollo este producto consultar el siguiente link:
-
 
 ## Usuario
 
@@ -54,7 +52,8 @@ Para conocer el proceso de diseño con el que se desarrollo este producto consul
 
 **Investigacion:** Realizando pequeñas encuentas acerca de que personas tenian una misma contraseña para mas de tres cuentas, me di cuenta que mi sector del mercado son los adultos-jovenes de entre 18-30 años, los que generalmente comparten la misma contraseña con sus cuentas como su email y sus redes sociales.
 
-##UX/UI
+#UX
+
 El usuario puede ingresar su contraseña de siempre o generar una nueva, le recomendamos que su contraseña tenga MAYÚSCULAS, MINÚSCULAS y NUMEROS.
 
 
@@ -66,22 +65,25 @@ No sin antes recordar
 
 ![esquema](./src/esquema.jpg)
 
- Se penso hacer todo con bordes redondeados para hacerlo mas amigable para el usuario.
+- Se penso hacer todo con bordes redondeados para hacerlo mas amigable para el usuario.
 
- tiene un diseño minimalista.
+- Tiene un diseño minimalista.
 
- En base a las encuentas pareciera mas una app que una pagina web.
+- En base a las encuentas pareciera mas una app que una pagina web.
 
 
  Se tomaron en cuenta esas consideraciones y el diseño final , ofrece en primera plano al abrir la pagina  el titulo y la caja donde se cifra asi como un pequeño resumen de como funciona.
 
 ![pagina1](./src/pagina1.png)
 
-cuando haces scroll nos muestra  los botones de cifrar y descrifrar asi como instrucciones adicionales de usar mayusculas y minusculas asi como numeros.
+Cuando haces scroll nos muestra  los botones de cifrar y descrifrar asi como instrucciones adicionales de usar mayusculas y minusculas asi como numeros.
 
 ![pagina2](./src/pagina2.png)
 
+Despues hay un breve explicacion de como usarlo adecuadamente, asi como informacion adicional sobre el cifrado cesar y la importancia de usar el cifrado cesar
 
 ![pagina13](./src/pagina3.png)
+
+Al final le hace saber al usuario que se peude descargar la app en la play store y el footer de nuestras redes sociales
 
 ![pagina4](./src/pagina4.png)
