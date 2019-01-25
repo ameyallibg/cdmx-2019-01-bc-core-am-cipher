@@ -73,6 +73,15 @@ No sin antes recordar
  En base a las encuentas pareciera mas una app que una pagina web.
 
 
- Se tomaron en cuenta esas consideraciones y el diseño final , ofrece en primera plano al abri la pagina
+ Se tomaron en cuenta esas consideraciones y el diseño final , ofrece en primera plano al abrir la pagina  el titulo y la caja donde se cifra asi como un pequeño resumen de como funciona.
 
-![pagina1](./src/pagina1.jpg)
+![pagina1](./src/pagina1.png)
+
+cuando haces scroll nos muestra  los botones de cifrar y descrifrar asi como instrucciones adicionales de usar mayusculas y minusculas asi como numeros.
+
+![pagina2](./src/pagina2.png)
+
+
+![pagina13](./src/pagina3.png)
+
+![pagina4](./src/pagina4.png)
