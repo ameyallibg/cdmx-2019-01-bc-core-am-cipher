@@ -1,12 +1,12 @@
 const cifrar = () => {
 
 
-    const espacio = parseInt(document.getElementById('offset').value);
+    const num = parseInt(document.getElementById('offset').value);
     //console.log(espacio)
-    const mayus = document.getElementById('entrada').value //toUpperCase()
+    const msj = document.getElementById('entrada').value //toUpperCase()
     //console.log(mayus)
     //window.cipher.encode;
-    document.getElementById('inputRes').innerHTML = cipher.encode(espacio, mayus);
+    document.getElementById('inputRes').innerHTML = cipher.encode(num, msj);
     //document.getElementById('inputRes').innerHTML = cifrando;
 
 
@@ -20,12 +20,12 @@ const descrifrar=()=> {
   // const aceptar =document.getElementById("botoncomenzar");
   // aceptar.addEventListener('click',window.cipher.encode);
 
-    const espacio = parseInt(document.getElementById('offset').value);
+    const espacioUno = parseInt(document.getElementById('offset').value);
     //console.log(espacioUno)
-    const mayus = document.getElementById('entrada').value; //toUpperCase()
+    const mayusUno = document.getElementById('entrada').value; //toUpperCase()
     //console.log(mayusUno)
     //window.cipher.encode;
-    document.getElementById('inputRes').innerHTML = cipher.decode(espacio, mayus);
+    document.getElementById('inputRes').innerHTML = cipher.decode(espacioUno, mayusUno);
 
 
 

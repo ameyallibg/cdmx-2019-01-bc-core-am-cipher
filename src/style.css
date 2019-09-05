@@ -3,7 +3,7 @@ body{
   text-align: center;
   font-family: 'Barlow Condensed', sans-serif;
   height:100%;
-  margin-left: 20%;
+  
   margin-top: 0px;
   background-image: url(https://rollosdepapel-online.com/3164-large_default/110-mts-x-62-cm-rollo-papel-de-seda-verde-color-pastel-estampado-rayas.jpg);
 }
@@ -11,7 +11,8 @@ body{
   height: 1800px;
   width: 80%;
   background-color: white;
-  margin-right: 30%;
+  margin-right: auto;
+  margin-left:auto;
 
 }
 
@@ -261,3 +262,144 @@ h4{
   transition-duration: 0.4s;
 
 }
+
+@media (max-width: 600px) {
+
+#root{
+  width:100%;
+}
+h1{
+  font-size: 13.5vw;
+}
+#key{
+  font-size: 10.5vw;
+}
+h3{
+  font-size: 5vw;
+}
+
+#intr{
+  display:none;
+}
+#cont{
+  width: 96%;
+  height: 23em;
+ 
+ 
+  margin-left: 2%;
+  
+}
+#contr{
+  width: 100%;
+  height: 0px;
+  float:none;
+  
+}
+#contr p{
+  font-size: 5.8vw;
+  width: 100%;
+  text-align: center;
+  
+  margin-left: 0%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#contr input {
+  width: 90%;
+  margin-left: 0%;
+  font-size: 4.6vw;
+}
+
+#num{
+  float:none;
+  width:100%;
+  height:0px;
+
+
+}
+
+#num p{
+  font-size: 5.8vw;
+  width: 100%;
+  text-align: center;
+      margin-left: 0%;
+    margin-top: 4em;
+    margin-bottom: 0px;
+}
+
+#num input{
+  width: 90%;
+    
+   
+    margin-left: 0%;
+    font-size: 6.6vw;
+    
+}
+
+#divResul p{
+  width: 90%;
+  font-size: 9vw;
+  margin-left: 4%;
+  margin-top: 3em;
+}
+#divResul h2{
+  font-size: 6vw;
+}
+
+button{
+  width: 80%;
+  border-radius: 10px;
+  font-size: 5vw;
+  margin-top: 15px;
+}
+
+.botones:hover{
+
+
+  font-size: 5vw;
+ 
+}
+
+#text{
+  margin-top: 85px;
+
+}
+
+h4{
+  font-size:5.2vw;
+
+}
+
+.explicacion{
+  font-size:4.3vw;
+}
+
+#text p{
+  font-size: 4.5vw;
+}
+#play{
+  width: 60%;
+
+  font-size: 5.1vw;
+}
+
+#redes{
+  font-size: 5.6vw;
+}
+
+#fb{
+  
+  font-size: 6.5vw;
+}
+
+#tw{
+  font-size: 6.5vw;
+}
+
+#yt{
+  font-size: 6.5vw;
+}
+}
+
+
