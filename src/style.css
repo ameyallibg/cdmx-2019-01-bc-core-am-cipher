@@ -3,13 +3,14 @@ body{
   text-align: center;
   font-family: 'Barlow Condensed', sans-serif;
   height:100%;
+  background: #add290;
   
   margin-top: 0px;
   background-image: url(https://rollosdepapel-online.com/3164-large_default/110-mts-x-62-cm-rollo-papel-de-seda-verde-color-pastel-estampado-rayas.jpg);
 }
 #root{
   height: 1800px;
-  width: 80%;
+  width: 75%;
   background-color: white;
   margin-right: auto;
   margin-left:auto;
