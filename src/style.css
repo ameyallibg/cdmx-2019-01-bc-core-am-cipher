@@ -87,6 +87,7 @@ h3{
   padding-left: 10px;
   margin-left: 20%;
   font-size: 1.6vw;
+  border-style:ridge;
 
 }
 
@@ -118,6 +119,8 @@ h3{
     margin-left: 20%;
     font-size: 1.6vw;
     text-align: center;
+    border-style:ridge;
+
 
 
 }
@@ -284,37 +287,37 @@ h3{
 }
 #cont{
   width: 96%;
-  height: 23em;
- 
+  height: 17em;
+  border-color:white;
  
   margin-left: 2%;
   
 }
 #contr{
-  width: 100%;
+  width: 75%;
   height: 0px;
-  float:none;
+
   
 }
 #contr p{
   font-size: 5.8vw;
   width: 100%;
-  text-align: center;
-  
-  margin-left: 0%;
+  text-align: left;
+      margin-left: 7%;
+ 
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 #contr input {
-  width: 90%;
+  width: 83%;
   margin-left: 0%;
   font-size: 4.6vw;
 }
 
 #num{
-  float:none;
-  width:100%;
+
+  width:30%;
   height:0px;
 
 
@@ -325,16 +328,16 @@ h3{
   width: 100%;
   text-align: center;
       margin-left: 0%;
-    margin-top: 4em;
+    margin:0px;
     margin-bottom: 0px;
 }
 
 #num input{
-  width: 90%;
+  width: 65%;
     
    
     margin-left: 0%;
-    font-size: 6.6vw;
+    font-size: 5.6vw;
     
 }
 
@@ -349,10 +352,11 @@ h3{
 }
 
 button{
-  width: 80%;
+  width: 70%;
   border-radius: 10px;
-  font-size: 5vw;
-  margin-top: 15px;
+  font-size: 4.5vw;
+  margin-top: 0px;
+  height:50px;
 }
 
 .botones:hover{
@@ -363,7 +367,7 @@ button{
 }
 
 #text{
-  margin-top: 85px;
+  margin-top: 80px;
 
 }
 
