@@ -41,3 +41,4 @@ des.addEventListener('click',descrifrar);
 // let espacioDos = parseInt(document.getElementById('offset').value);
 // const aceptar =document.getElementById("botoncomenzar");
 // aceptar.addEventListener('click',window.cipher.encode);
+
