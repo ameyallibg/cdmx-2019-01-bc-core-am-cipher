@@ -5,28 +5,7 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 - La palabra CASA se cifra como FDVD.
 - Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-## Pre-requisitos e instalación
-1. Antes que nada, asegúrate de tener un editor de texto en
-   condiciones, algo como [Atom](https://atom.io/),
-   [Visual Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com) o cualquier otro de tu preferencia.
-2. Para ejecutar los comandos a continuación necesitarás una
-   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
-   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
-   aunque recomendaría que consideres probar GNU/Linux como tu Sistema Operativo.
-3. Haz tu propio [fork](https://help.github.com/articles/fork-a-repo/)
-   de [ este repositorio](https://github.com/ameyallibg/cdmx-2019-01-bc-core-am-cipher) de tu cohort, tus _coaches_ te compartirán un _link_ a un repositorio y te
-   darán acceso de lectura en ese repo.
-4. [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
-5. Instala las dependencias del proyecto con el comando `npm
-   install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
-   incluye [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm run test`.
+
 ##Consideraciones técnicas
 Este proyecto está desarrollado con:
 - EMS6 JavaScriptpuro [JSVanilla](https://medium.com/laboratoria-developers/vanillajs-vs-jquery-31e623bbd46e).
@@ -37,7 +16,7 @@ Este proyecto está desarrollado con:
 ## Pruebas
 Las pruebas automatizadas para este sistema requieren de una instalación simple a través del comando npm install. Los tests verifican que regrese una letra acorde a la posición ingresada en el offset. Analiza que la función  cifrar retorne "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33; y que la función decifrar retorne retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33. No cifra caracteres especiales y espacios (" !@" debería retornar  " !@"', ).
 ## Autores
--Cristal García
+-Ameyalli Brito
 ## Expresiones de gratitud
 Agradezco el apoyo de mi squad "Guacacoders".  
 # UX-UI
@@ -84,6 +63,8 @@ Despues hay un breve explicacion de como usarlo adecuadamente, asi como informac
 
 ![pagina13](./src/pagina3.png)
 
+
 Al final le hace saber al usuario que se peude descargar la app en la play store y el footer de nuestras redes sociales
 
 ![pagina4](./src/pagina4.png)
+

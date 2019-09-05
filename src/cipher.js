@@ -1,4 +1,5 @@
 window.cipher = {
+
   encode: (espacio,string) => {
         let cifrando = "";
         for (let i = 0; i < string.length; i++) {//divide el string epor su longitud
@@ -117,3 +118,4 @@ window.cipher = {
    //       }
    //     }
    //   };
+
