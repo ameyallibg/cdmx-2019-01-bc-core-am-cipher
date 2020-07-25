@@ -1,3 +1,17 @@
+
+
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiYW1leWFsbGlicml0byIsImEiOiJja2JxemgxcHkwcm94Mnl0cGpudjFvN3Z0In0.SqNmAX8KMeuqtVGbBRQW_A';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11'
+});
+
+
+  
+  
+
+
 const cifrar = () => {
 
 
